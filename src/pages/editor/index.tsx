@@ -1,10 +1,10 @@
 import React from 'react';
-import ToolPanelLeft from '../../components/toolpanelleft';
+import ToolPanelLeft from 'components/toolpanelleft';
 
-function index() {
+function Editor(): JSX.Element {
   return (
     <ToolPanelLeft />
   );
 }
 
-export default index;
+export default Editor;

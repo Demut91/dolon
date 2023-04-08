@@ -1,10 +1,9 @@
 import React from 'react';
+import Editor from './pages/editor';
 
-function App() {
+function App(): JSX.Element {
   return (
-    <h1>
-      Dolon App
-    </h1>
+    <Editor />
   );
 }
 

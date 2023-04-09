@@ -9,13 +9,11 @@ import {
 } from './styles';
 import { Database } from 'components/iconsButtons/navigation/database';
 import { Image } from 'components/iconsButtons/navigation/image';
-import { Circle, Colour } from 'components/iconsButtons/navigation/navSettings/circle';
-
+import NavSettings from './settings';
+import { Colour } from 'components/iconsButtons/navigation/navSettings/circle';
 
 
 function Navigation(): JSX.Element {
-
-
     return (
         <Container>
             <Heading>
@@ -32,39 +30,94 @@ function Navigation(): JSX.Element {
                 </MainAccordionDetails>
             </MainAccordion>
 
-            <MainAccordion expanded>
+            <MainAccordion >
                 <MainAccordionSummary >
                     Событийные данные
                 </MainAccordionSummary>
                 <MainAccordionDetails>
 
-                    <SmallAccordion expanded>
+                    <SmallAccordion>
                         <SmallAccordionSummary>
-                            Пример 1
+                            <span>Пример 1</span>
+                            <NavSettings marked colour={Colour.blue} />
                         </SmallAccordionSummary>
                         <SmallAccordionDetails>
 
                             <SmallAccordion >
                                 <SmallAccordionSummary>
-                                    Пример 1.1
+                                    <span>Пример 1.1</span>
+                                    <NavSettings marked colour={Colour.purple} />
                                 </SmallAccordionSummary>
                                 <SmallAccordionDetails>
                                 </SmallAccordionDetails>
                             </SmallAccordion>
                             <SmallAccordion >
                                 <SmallAccordionSummary>
-                                    Пример 1.2
+                                    <span>Пример 1.2</span>
+                                    <NavSettings colour={Colour.green} />
+                                </SmallAccordionSummary>
+                                <SmallAccordionDetails>
+                                </SmallAccordionDetails>
+                            </SmallAccordion>
+                            <SmallAccordion >
+                                <SmallAccordionSummary>
+                                    <span>Пример 1.3</span>
+                                    <NavSettings marked colour={Colour.palette} />
                                 </SmallAccordionSummary>
                                 <SmallAccordionDetails>
                                 </SmallAccordionDetails>
                             </SmallAccordion>
                         </SmallAccordionDetails>
                     </SmallAccordion>
+
                     <SmallAccordion>
                         <SmallAccordionSummary>
-                            Пример 2
+                            <span>Пример 2</span>
+                            <NavSettings marked colour={Colour.black} />
                         </SmallAccordionSummary>
                         <SmallAccordionDetails>
+                            <SmallAccordion >
+                                <SmallAccordionSummary>
+                                    <span>Пример 2.1</span>
+                                    <NavSettings colour={Colour.palette} />
+                                </SmallAccordionSummary>
+                                <SmallAccordionDetails>
+                                </SmallAccordionDetails>
+                            </SmallAccordion>
+                            <SmallAccordion >
+                                <SmallAccordionSummary disabled>
+                                    <span>Пример 2.2</span>
+                                </SmallAccordionSummary>
+                                <SmallAccordionDetails>
+                                </SmallAccordionDetails>
+                            </SmallAccordion>
+                        </SmallAccordionDetails>
+                    </SmallAccordion>
+
+                    <SmallAccordion>
+                        <SmallAccordionSummary>
+                            <span>Пример 3</span>
+                            <NavSettings marked colour={Colour.orange} />
+                        </SmallAccordionSummary>
+                        <SmallAccordionDetails>
+                            <SmallAccordion >
+                                <SmallAccordionSummary>
+                                    <span>Пример 3.1</span>
+                                    <NavSettings colour={Colour.black} />
+
+                                </SmallAccordionSummary>
+                                <SmallAccordionDetails>
+                                </SmallAccordionDetails>
+                            </SmallAccordion>
+                            <SmallAccordion >
+                                <SmallAccordionSummary disabled>
+                                    <span>Пример 3.2</span>
+                                    <NavSettings marked colour={Colour.green} />
+
+                                </SmallAccordionSummary>
+                                <SmallAccordionDetails>
+                                </SmallAccordionDetails>
+                            </SmallAccordion>
                         </SmallAccordionDetails>
                     </SmallAccordion>
                 </MainAccordionDetails>
@@ -101,7 +154,6 @@ function Navigation(): JSX.Element {
 
                 </MainAccordionDetails>
             </MainAccordion>
-
         </Container>
     );
 }

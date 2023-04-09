@@ -16,7 +16,7 @@ export const Circle = (props: PropType) => {
     switch (props.colour) {
         case Colour.palette:
             return (
-                <img src={circle} />
+                <img style={{marginBottom: '2px'}} src={circle} />
             );
         case Colour.black:
             return (
@@ -54,7 +54,6 @@ export const Circle = (props: PropType) => {
                     </defs>
                 </svg>
             );
-
         case Colour.blue:
         case Colour.green:
         case Colour.purple:

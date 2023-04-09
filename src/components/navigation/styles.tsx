@@ -91,6 +91,8 @@ export const SmallAccordionSummary = MUIstyled((props: AccordionSummaryProps) =>
     transform: 'rotate(90deg)',
   },
   '& .MuiAccordionSummary-content': {
+    display: 'flex',
+    justifyContent: 'space-between',
     fontWeight: 400,
     fontSize: '14px',
     margin: '0 8px',
@@ -98,5 +100,5 @@ export const SmallAccordionSummary = MUIstyled((props: AccordionSummaryProps) =>
 }));
 
 export const SmallAccordionDetails = MUIstyled(MuiAccordionDetails)(() => ({
-  padding: '0 16px',
+  padding: '0 0 0 16px',
 }));

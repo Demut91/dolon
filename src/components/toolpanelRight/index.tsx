@@ -6,9 +6,9 @@ import { ViewN } from 'assets/iconsButtons/toolPanelRight/viewN';
 import { ViewPlane } from 'assets/iconsButtons/toolPanelRight/viewPlane';
 import { ViewW } from 'assets/iconsButtons/toolPanelRight/viewW';
 import React from 'react';
-import { Wrapper } from './styles';
 import Draggable from 'react-draggable';
 import { ViewCommon } from 'assets/iconsButtons/toolPanelRight/viewCommon';
+import { Wrapper } from './styles';
 
 export default function ToolPanelRight(): JSX.Element {
     return (

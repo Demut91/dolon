@@ -3,7 +3,7 @@ import { Ruler } from 'assets/iconsButtons/toolPanelLeft/ruler';
 import { Annotation } from 'assets/iconsButtons/toolPanelLeft/annotation';
 import { Ruler2 } from 'assets/iconsButtons/toolPanelLeft/ruler2';
 import { Arrow } from 'assets/iconsButtons/toolPanelLeft/arrow';
-import { Wrapper } from '../toolpanelRight/styles';
+import { Wrapper } from '../toolPanelRight/styles';
 import Draggable from 'react-draggable';
 
 export default function ToolPanelLeft(): JSX.Element {

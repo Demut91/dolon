@@ -1,4 +1,4 @@
-import { IconButtonWrapper } from "components/toolpanelleft/styles";
+import { IconButtonWrapper } from "components/toolPanelLeft/styles";
 
 export const Ruler2 = () => (
   <IconButtonWrapper>

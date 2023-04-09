@@ -1,12 +1,16 @@
 import React from 'react';
-import ToolPanelLeft from 'components/toolpanelleft';
-import ToolPanelRight from 'components/toolpanelRight';
+import ToolPanelLeft from 'components/toolPanelLeft';
+import ToolPanelRight from 'components/toolPanelRight';
+import Navigation from 'components/navigation';
 
 function Editor(): JSX.Element {
   return (
     <>
-      <ToolPanelLeft />
-      <ToolPanelRight />
+      <Navigation />
+      {/* <div>
+        <ToolPanelLeft />
+        <ToolPanelRight />
+      </div> */}
     </>
   );
 }

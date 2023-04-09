@@ -1,4 +1,4 @@
-import { IconButtonWrapper } from "components/toolpanelRight/styles";
+import { IconButtonWrapper } from "components/toolPanelRight/styles";
 
 export const ViewChange = () => (
     <IconButtonWrapper>

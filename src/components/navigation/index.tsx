@@ -7,8 +7,10 @@ import {
     SmallAccordionDetails,
     SmallAccordionSummary
 } from './styles';
-import { Database } from 'assets/iconsButtons/navigation/database';
-import { Image } from 'assets/iconsButtons/navigation/image';
+import { Database } from 'components/iconsButtons/navigation/database';
+import { Image } from 'components/iconsButtons/navigation/image';
+import { Circle, Colour } from 'components/iconsButtons/navigation/navSettings/circle';
+
 
 
 function Navigation(): JSX.Element {
@@ -41,6 +43,7 @@ function Navigation(): JSX.Element {
                             Пример 1
                         </SmallAccordionSummary>
                         <SmallAccordionDetails>
+
                             <SmallAccordion >
                                 <SmallAccordionSummary>
                                     Пример 1.1

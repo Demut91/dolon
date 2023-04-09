@@ -1,8 +1,8 @@
 import React from 'react';
-import { Ruler } from 'assets/iconsButtons/toolPanelLeft/ruler';
-import { Annotation } from 'assets/iconsButtons/toolPanelLeft/annotation';
-import { Ruler2 } from 'assets/iconsButtons/toolPanelLeft/ruler2';
-import { Arrow } from 'assets/iconsButtons/toolPanelLeft/arrow';
+import { Annotation } from 'components/iconsButtons/toolPanelLeft/annotation';
+import { Arrow } from 'components/iconsButtons/toolPanelLeft/arrow';
+import { Ruler } from 'components/iconsButtons/toolPanelLeft/ruler';
+import { Ruler2 } from 'components/iconsButtons/toolPanelLeft/ruler2';
 import { Wrapper } from '../toolPanelRight/styles';
 import Draggable from 'react-draggable';
 

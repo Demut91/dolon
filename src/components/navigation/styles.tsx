@@ -66,6 +66,7 @@ export const MainAccordionSummary = MUIstyled((props: AccordionSummaryProps) => 
 export const MainAccordionDetails = MUIstyled(MuiAccordionDetails)(() => ({
   padding: 0,
   marginLeft: '4px',
+  marginBottom: '10px'
 }));
 
 export const SmallAccordion = MUIstyled((props: AccordionProps) => (
@@ -103,4 +104,5 @@ export const SmallAccordionSummary = MUIstyled((props: AccordionSummaryProps) =>
 
 export const SmallAccordionDetails = MUIstyled(MuiAccordionDetails)(() => ({
   padding: '0 0 0 16px',
+  fontSize: '12px'
 }));

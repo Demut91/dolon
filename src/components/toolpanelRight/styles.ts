@@ -38,6 +38,9 @@ justify-content: center;
   &:hover {
     transform: scale(1.1)
   }
+  &:active {
+  transform: scale(0.9);
+} 
 }
 &:nth-child(3),
 &:nth-child(6)   {

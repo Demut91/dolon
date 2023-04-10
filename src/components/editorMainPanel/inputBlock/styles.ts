@@ -45,7 +45,7 @@ border: 1px solid rgba(23, 23, 23, 0.2);
 border-radius: 8px;
 cursor: pointer;
 &:hover {
-  box-shadow: 4px 3px 14px -4px rgba(34, 60, 80, 0.55);
+  box-shadow: 3px 2px 12px -4px rgba(34, 60, 80, 0.55);
 }
   &:active {
   box-shadow: none;

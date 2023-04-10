@@ -37,5 +37,8 @@ svg {
             fill: #7AA7FF;
         }        
     }
+&:active {
+    transform: scale(0.9);
+}
 }
 `;

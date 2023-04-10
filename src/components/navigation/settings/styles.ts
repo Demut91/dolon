@@ -13,7 +13,7 @@ padding: 2px;
 position: relative;    
     &::after {
         content: '';
-        display: ${props => props.marked ? 'block' : 'none'}; ;
+        display: ${props => props.marked ? 'block' : 'none'}; 
         position: absolute;
         top: 7.5px;
         right: -15px;

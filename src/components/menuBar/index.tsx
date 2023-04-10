@@ -7,6 +7,7 @@ import { Burger } from 'components/iconsButtons/navigation/burger';
 import { ThreeD } from 'components/iconsButtons/navigation/threeD';
 import { Monitor } from 'components/iconsButtons/navigation/monitor';
 import { MenuSearch } from 'components/iconsButtons/navigation/menuSearch';
+import Header from 'components/header';
 
 function MenuBar() {
     return (

@@ -8,6 +8,8 @@ import MuiAccordionSummary, {
 import MuiAccordionDetails from '@mui/material/AccordionDetails';
 
 export const Container = styled.div`
+position: absolute;
+left: 73px;
 width: 240px;
 min-height: 100px;
 padding: 16px 5px;  

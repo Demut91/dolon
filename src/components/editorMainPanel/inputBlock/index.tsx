@@ -18,7 +18,7 @@ function InputBlock(props: InputProps) {
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                     <ColorPicker color={props.defaultValue} />
                     <CustomTextField
-                        sx={{ width: '53px' }}
+                        sx={{ width: '53px', marginTop: '5px' }}
                         variant="standard"
                         type={typeof props.defaultValue}
                         hiddenLabel

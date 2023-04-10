@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
+  position: absolute;
+  left: 320px;
+  top: 120px;
   display: flex;
   flex-direction: column;
   max-width: 42px;
@@ -19,15 +22,7 @@ padding: 1px 0 0 0;
 width: 28px;
 &:hover {
   cursor: pointer;
-  background-color: #E9E9EB;
-  /* svg {   
-      path {
-        fill: green;
-      }
-      rect {
-        fill: green;
-      }    
-  } */
+  background-color: #E9E9EB;  
 }
 &:active {
   transform: scale(0.9);

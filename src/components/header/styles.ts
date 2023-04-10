@@ -5,6 +5,7 @@ margin: 0 auto;
 max-width: 1440px;
 height: 48px;
 padding: 12px 32px 12px 12px;  
+border-bottom: 1px solid #DDDDDF;
 display: flex;
 justify-content: space-between;
 `;

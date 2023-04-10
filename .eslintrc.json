@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "ignorePatterns": ["**/*"],
+  "plugins": ["@typescript-eslint"],
+  "extends": ["airbnb", "airbnb-typescript"],
+  "parserOptions": {
+    "project": "./tsconfig.base.json"
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "rules": {
+        "@nrwl/nx/enforce-module-boundaries": 0,
+        "react/react-in-jsx-scope": 0,
+        "import/no-named-as-default": 0,
+        "import/prefer-default-export": 0,
+        "prettier/prettier": "error",
+        "react/require-default-props": 0,
+        "react/jsx-props-no-spreading": 0
+      }
+    }
+  ]
+}

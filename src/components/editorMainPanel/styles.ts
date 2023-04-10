@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-position: absolute;
-right: 2px;
+  background-color: #F5F5F7;
+  position: absolute;
+  right: 2px;
   display: grid;
   grid-template-columns: 225px auto;
   grid-gap: 20px;
-  width: 305px;
   padding: 28px 31px 28px 16px;
   min-height: 100px;
   input[type=number]::-webkit-inner-spin-button, 

@@ -7,9 +7,9 @@ import EditorMainPanel from 'components/editorMainPanel';
 function Editor(): JSX.Element {
   return (
     <>
-      <EditorMainPanel />
-      {/* <Navigation /> */}
-      {/* <div>
+      {/* <EditorMainPanel /> */}
+      {/* <Navigation /> 
+      <div>
         <ToolPanelLeft />
         <ToolPanelRight />
       </div> */}

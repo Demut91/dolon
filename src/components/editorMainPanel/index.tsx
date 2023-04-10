@@ -3,9 +3,7 @@ import { Wrapper } from './styles';
 import InputBlock from './inputBlock';
 import { InputProps, inputFields } from 'constants/mockData';
 
-
-
-function EditorMainPanel() {
+function EditorMainPanel(): JSX.Element {
   return (
     <Wrapper>
       {inputFields.map((input: InputProps) => (
@@ -14,7 +12,6 @@ function EditorMainPanel() {
           defaultValue={input.defaultValue}
         />
       ))}
-
     </Wrapper>
   );
 }

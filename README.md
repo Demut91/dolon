@@ -1,8 +1,10 @@
-![image](https://user-images.githubusercontent.com/112697293/230879362-69741373-4ac0-4d5e-b368-eea6cca6f083.png)
+![image](https://user-images.githubusercontent.com/66415339/230896288-47f17ffc-1151-4863-8f82-d1c1825c7caa.png)
 
 
 
 ## Available Scripts
+
+### `yarn install`
 
 In the project directory, you can run:
 
